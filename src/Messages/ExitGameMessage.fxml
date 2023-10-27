@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="219.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Messages.ExitGameMessageController">
+   <children>
+      <ImageView fitHeight="30.0" fitWidth="103.0" layoutX="133.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/masterming2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labeInformacion" alignment="CENTER" layoutX="20.0" layoutY="44.0" prefHeight="88.0" prefWidth="326.0" text="Quieres salir del juego?" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets left="3.0" right="3.0" />
+         </padding>
+      </Label>
+      <HBox layoutX="72.0" layoutY="150.0" prefHeight="49.0" prefWidth="222.0">
+         <children>
+            <Button fx:id="aceptarButton" alignment="CENTER" mnemonicParsing="false" onAction="#aceptarAccion" prefHeight="23.0" prefWidth="103.0" styleClass="boton" stylesheets="@../Css/Message.css" text="Aceptar" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Pane prefHeight="49.0" prefWidth="54.0" />
+            <Button fx:id="cancelarButton" alignment="CENTER" mnemonicParsing="false" onAction="#cancelarAccion" prefHeight="23.0" prefWidth="103.0" styleClass="boton" stylesheets="@../Css/Message.css" text="Cancelar" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

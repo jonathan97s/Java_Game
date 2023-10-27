@@ -1,0 +1,21 @@
+.comboBox{
+    -fx-background-radius: 10px;
+    -fx-background-color: #AFAFAF;
+}
+
+.comboBox:hover{
+    -fx-background-radius: 10px;
+    -fx-background-color: #888888;   
+}
+
+.boton{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #8A8A8A;
+}
+
+.boton:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #565656;
+}

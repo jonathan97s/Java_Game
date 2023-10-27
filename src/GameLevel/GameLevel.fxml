@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameLevel.GameLevelController">
+   <children>
+      <Label alignment="CENTER" layoutX="66.0" prefHeight="58.0" prefWidth="220.0" text="Elige tu nivel de juego" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonConfirmar" layoutX="127.0" layoutY="180.0" mnemonicParsing="false" onAction="#confirmarAction" prefHeight="32.0" prefWidth="96.0" styleClass="boton" stylesheets="@../Css/GameLevel.css" text="Confirmar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <ComboBox fx:id="comboItems" layoutX="91.0" layoutY="58.0" onAction="#textShow" prefHeight="36.0" prefWidth="168.0" styleClass="comboBox" stylesheets="@../Css/GameLevel.css" />
+      <Label fx:id="comLabel" alignment="CENTER" layoutX="29.0" layoutY="94.0" prefHeight="78.0" prefWidth="295.0" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

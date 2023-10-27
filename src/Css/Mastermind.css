@@ -1,0 +1,257 @@
+.botonCheck{
+    -fx-background-radius: 100px;
+    -fx-background-color: yellow;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 100px;
+    -fx-border-color: #F1C40F;
+}
+.botonCheck:hover{
+    -fx-background-radius: 100px;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 100px;
+    -fx-border-color: #F1C40F;
+    -fx-background-color: #F2F86D;
+}
+
+.botonCheck:pressed{
+    -fx-background-radius: 100px;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 100px;
+    -fx-border-color: #F1C40F;
+    -fx-background-color: yellow;
+}
+
+.botonStart{     
+    -fx-border-style: solid;
+    -fx-border-color: #219A0E;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 3px;
+    -fx-background-color: #20B409;
+}
+
+.botonStart:hover{
+    -fx-border-style: solid;
+    -fx-border-color: #219A0E;
+    -fx-border-radius: 35px;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 3px;
+    -fx-background-color: #7BF468;
+}
+
+.botonStart:pressed{
+    -fx-border-style: solid;
+    -fx-border-color: #219A0E;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 3px;
+    -fx-background-color: #20B409;
+}
+
+.botonNewGame{
+    -fx-border-style: solid;
+    -fx-border-color: #0000FF;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #2962FA;
+}
+
+.botonNewGame:hover{
+    -fx-border-style: solid;
+    -fx-border-color: #0000FF;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #1E90FF;
+}
+
+.botonNewGame:pressed{
+    -fx-border-style: solid;
+    -fx-border-color: #0000FF;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #2962FA;
+}
+
+
+.botonExit{
+    -fx-border-style: solid;
+    -fx-border-color: #790707;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #BF1010;
+}
+
+.botonExit:hover{
+    -fx-border-style: solid;
+    -fx-border-color: #790707;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #F04343;
+}
+
+.botonExit:pressed{
+    -fx-border-style: solid;
+    -fx-border-color: #790707;
+    -fx-background-insets: 2px, 2px, 2px, 2px;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-background-color: #BF1010;
+}
+
+.botonRojo{
+    -fx-background-radius: 100px;
+    -fx-background-color: red;
+}
+.botonRojo:hover{
+    -fx-background-insets: -3px, -3px ,-3px, -3px;
+    -fx-background-radius: 100px;
+    -fx-background-color: red;    
+}
+.botonRojo:pressed{
+    -fx-background-insets: 1px, 1px ,1px, 1px;
+    -fx-background-radius: 100px;
+    -fx-background-color: red;
+}
+
+.botonAzul{
+    -fx-background-radius: 100px;
+    -fx-background-color: blue;
+}
+
+.botonAzul:hover{
+    -fx-background-insets: -3px, -3px ,-3px, -3px;
+    -fx-background-radius: 100px;
+    -fx-background-color: blue;
+}
+
+.botonAzul:pressed{
+    -fx-background-radius: 100px;
+    -fx-background-color: blue;
+    -fx-background-insets: 1px, 1px ,1px, 1px;
+}
+
+.botonAmarillo{
+    -fx-background-radius: 100px;
+    -fx-background-color: yellow;
+}
+
+.botonAmarillo:hover{
+    -fx-background-insets: -3px, -3px ,-3px, -3px;
+    -fx-background-radius: 100px;
+    -fx-background-color: yellow;
+}
+
+.botonAmarillo:pressed{
+    -fx-background-radius: 100px;
+    -fx-background-color: yellow;
+    -fx-background-insets: 1px, 1px ,1px, 1px;
+}
+
+.botonVerde{
+    -fx-background-radius: 100px;
+    -fx-background-color: green;
+}
+
+.botonVerde:hover{
+    -fx-background-insets: -3px, -3px ,-3px, -3px;
+    -fx-background-radius: 100px;
+    -fx-background-color: green;
+}
+
+.botonVerde:pressed{
+    -fx-background-radius: 100px;
+    -fx-background-color: green;
+    -fx-background-insets: 1px, 1px ,1px, 1px;
+    
+}
+
+.botonAyuda{
+    -fx-background-radius: 100px;
+    -fx-background-color: white; 
+}
+
+.botonAyuda:hover{
+    -fx-background-radius: 100px;
+    -fx-background-color: grey; 
+}
+
+.botonAyuda:pressed{
+    -fx-background-radius: 100px;
+    -fx-background-color: white; 
+}
+
+
+.boton{
+    -fx-background-size: 15px;
+    -fx-background-radius: 100px;
+}
+
+.separador{
+    -fx-background-color: black;
+}
+
+
+.buttonDelete{
+   -fx-background-color: white;
+   -fx-background-radius: 5px;
+   -fx-background-image: url("../imagenes/flechaAzul.png");
+   -fx-background-repeat: no-repeat;
+   -fx-background-position: center;
+   -fx-background-size: contain;
+}
+
+.buttonDelete:hover {
+  -fx-background-color: lightgray;
+  -fx-cursor: hand;
+}
+
+.buttonDelete:pressed {
+  -fx-background-color: darkgray;
+}
+/*
+.buttonClear{
+   -fx-background-radius: 10px
+}
+*/
+
+.buttonClear {
+  -fx-background-color: #00bfff; /* color de fondo del botón */
+  -fx-text-fill: white; /* color del texto del botón */
+  -fx-font-size: 16px; /* tamaño de la fuente del texto del botón */
+  -fx-font-weight: bold; /* peso de la fuente del texto del botón */
+  -fx-padding: 10px; /* espaciado interno del botón */
+  -fx-border-radius: 5px; /* bordes redondeados del botón */
+}
+
+.buttonClear:hover {
+  -fx-background-color: #0080ff; /* color de fondo del botón al pasar el mouse sobre él */
+  -fx-cursor: hand;
+}
+
+.buttonClear:pressed {
+  -fx-background-color: #0040ff; /* color de fondo del botón al presionarlo */
+}
+
+
+
+

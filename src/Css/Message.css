@@ -1,0 +1,19 @@
+.boton{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #3761C4;
+}
+
+.boton:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #205098;
+}
+
+.boton:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #2E5481;
+}
+
+

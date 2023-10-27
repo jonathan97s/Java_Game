@@ -1,0 +1,49 @@
+.registre{
+     -fx-background-color: linear-gradient(to top, #486D9A, #13355A);
+}
+
+.userIcon{
+    -fx-background-color: #FFFFFF;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10.0, 0.0, 0.0, 7.0);
+}
+
+.font{
+    -fx-background-color: linear-gradient(to bottom, #2D4E7B, #2D4E7B);  
+}
+
+.shadow2{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 20px;
+}
+
+.border{
+    -fx-border-color: #3E64D6;
+}
+
+.boton{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #3761C4;
+}
+
+.boton:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #205098;
+}
+
+.boton:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.3), 5, 0.0, 0.0, 5);
+    -fx-background-radius: 30px;
+    -fx-background-color: #2E5481;
+}
+
+.separador{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,128, 0.1), 1, 0.0, 0.0, 2);
+    -fx-background-color: #2E4469;
+}
+   /* -fx-background-color: linear-gradient(to bottom, color, color);*/
+
